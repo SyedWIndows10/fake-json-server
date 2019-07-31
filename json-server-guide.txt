@@ -1,0 +1,32 @@
+JSON Server
+
+Articles:
+https://dzone.com/articles/zero-code-rest-with-json-server
+https://github.com/typicode/json-server
+
+cd project directory
+Install JSON Server:
+npm install -g json-server
+
+cd project directory
+watch db.json
+
+Postman
+
+Get Request: http://localhost:3000/posts
+
+Post Request: http://localhost:3000/posts
+Body - Raw - {"title": "shameem.pilathodan","author": "P@ssw0rd"} (JSON(application/json))
+
+Put Request: http://localhost:3000/posts/7
+Body - Raw - {"title": "json-server-test","author": "typicode"} (JSON(application/json))
+
+Delete Request: http://localhost:3000/posts/5
+
+
+
+
+
+
+
+
